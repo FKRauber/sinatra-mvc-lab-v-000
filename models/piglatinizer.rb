@@ -1,6 +1,6 @@
 class PigLatinizer
 
-  def piglatinize(word)
-    @word = word.downcase
+  def piglatinize(input)
+    x = (input.split(" ").length == 1) ? piglatinize_word(input) : piglatinize_sentence(input)
   end
 end
