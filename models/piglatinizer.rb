@@ -6,6 +6,6 @@ class PigLatinizer
     x
   end
   def consonant?(char)
-    !char.match(/[aeiouAEIOU])
+    !char.match(/[aeiouAEIOU]/)    
   end
 end
